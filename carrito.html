@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/45880842ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="icon" href="./imagenes/imagenes formato SVG/pelota-icono.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <a href="./index.html">
+                <h1 class="logo">ChangitoDeportivo</h1>
+            </a>
+            <button class="open-menu" id="open-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <header>
+                <a href="./index.html">
+                    <h1 class="logo">ChangitoDeportivo</h1>
+                </a>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="fa-solid fa-arrow-left"></i> Seguir comprando </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sammai-tolentino-mendoza-frontend/" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/SamiTolentino" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="texto-footer">©2023 by Sammai Tolentino. All rights reserved.</p>
+            </footer>
+        </aside>
+
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio"><strong>Tu carrito esta vacio.</strong></p>
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Esto se va a completar con el Javascript -->
+                </div>
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="Total">$0</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled"><strong>Muchas gracias por tu
+                        compra.</strong></p>
+
+            </div>
+        </main>
+
+    </div>
+    <!-- LIBRERIAS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- MI PROYECTO JS -->
+    <script src="./js/producto.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/hamburguesa.js"></script>
+</body>
+</html>

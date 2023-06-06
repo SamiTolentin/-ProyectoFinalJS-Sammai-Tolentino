@@ -1,0 +1,25 @@
+footer {
+    padding: 10px;
+    text-align: center;
+
+    .social-icons {
+        margin-bottom: 10px;
+
+        a {
+            display: inline-block;
+            margin: 0 8px;
+            color: #141414;
+            font-size: 30px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: var(--clr-white);
+        }
+    }
+
+    .texto-footer {
+        color: var(--clr-white);
+        font-size: 14px;
+    }
+}

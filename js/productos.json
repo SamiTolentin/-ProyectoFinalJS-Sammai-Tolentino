@@ -1,0 +1,192 @@
+ [
+    {
+        "id": "Camiseta-Adidas-Manchester-United",
+        "titulo": "Camiseta Adidas Manchester United",
+        "imagen": "./imagenes/Camiseta/Camiseta-Adidas-Manchester-United.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Camisetas"
+        },
+        "precio": 21.999
+    },
+    {
+        "id": "Camiseta-Diadora-Velez",
+        "titulo": "Camiseta Diadora Velez",
+        "imagen": "./imagenes/Camiseta/Camiseta-Diadora-Velez.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Camisetas"
+        },
+        "precio": 22.359
+    }, {
+        "id": "Camiseta-Nike-Liverpool",
+        "titulo": "Camiseta Nike Liverpool",
+        "imagen": "./imagenes/Camiseta/Camiseta-Nike-Liverpool.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Camisetas"
+        },
+        "precio": 21.899
+    }, {
+        "id": "Camiseta-Puma-Borussia-Dortmund",
+        "titulo": "Camiseta Puma Borussia Dortmund",
+        "imagen": "./imagenes/Camiseta/Camiseta-Puma-Borussia-Dortmund.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Camisetas"
+        },
+        "precio": 15.199
+    },
+
+    {
+        "id": "Short-Adidas",
+        "titulo": "Short Adidas",
+        "imagen": "./imagenes/Shorts/Short-Adidas.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 13.999
+    }, {
+        "id": "Short-Nike",
+        "titulo": "Short Nike Sportswear Air",
+        "imagen": "./imagenes/Shorts/Short-Nike.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 32.999
+    }, {
+        "id": "Short-Puma",
+        "titulo": "Short Puma Active 2078",
+        "imagen": "./imagenes/Shorts/Short-Puma.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 16.499
+    }, {
+        "id": "Short-Topper",
+        "titulo": "Short Topper Mix Deportivo",
+        "imagen": "./imagenes/Shorts/Short-Topper.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 6.283
+    },
+    
+    {
+        "id": "Medias-Adidas",
+        "titulo": "Medias Adidas",
+        "imagen": "./imagenes/Medias/Medias-Adidas.jpg",
+        "categoria": {
+            "nombre": "Medias",
+            "id": "Medias"
+        },
+        "precio": 5.999
+    }, {
+        "id": "Medias-Diadora",
+        "titulo": "Medias Diadora",
+        "imagen": "./imagenes/Medias/Medias-Diadora.jpg",
+        "categoria": {
+            "nombre": "Medias",
+            "id": "Medias"
+        },
+        "precio": 3.995
+    }, {
+        "id": "Medias-Nike",
+        "titulo": "Medias Nike",
+        "imagen": "./imagenes/Medias/Medias-Nike.jpg",
+        "categoria": {
+            "nombre": "Medias",
+            "id": "Medias"
+        },
+        "precio": 5.499
+    }, {
+        "id": "Medias-Topper",
+        "titulo": "Medias Topper",
+        "imagen": "./imagenes/Medias/Medias-Topper.jpg",
+        "categoria": {
+            "nombre": "Medias",
+            "id": "Medias"
+        },
+        "precio": 4.799
+    },
+    
+    {
+        "id": "Botines-Adidas-X-Speedportal",
+        "titulo": "Botines Adidas X Speedportal",
+        "imagen": "./imagenes/Botines/Adidas-X-Speedportal.jpg",
+        "categoria": {
+            "nombre": "Botines",
+            "id": "botines"
+        },
+        "precio": 39.999
+    }, {
+        "id": "Botin-Diadora-Clasico",
+        "titulo": "Botines Diadora Clasico",
+        "imagen": "./imagenes/Botines/Botin-Diadora-Clasico.jpg",
+        "categoria": {
+            "nombre": "Botines",
+            "id": "botines"
+        },
+        "precio": 18.359
+    }, {
+        "id": "Botines-Puma-Borussia",
+        "titulo": "Botines Puma Borussia",
+        "imagen": "./imagenes/Botines/Botines-Puma-Borussia.jpg",
+        "categoria": {
+            "nombre": "Botines",
+            "id": "botines"
+        },
+        "precio": 39.899
+    }, {
+        "id": "Botines-Topper-Kaiser-II",
+        "titulo": "Botines Topper Kaiser II",
+        "imagen": "./imagenes/Botines/Topper-Kaiser-II.jpg",
+        "categoria": {
+            "nombre": "Botines",
+            "id": "botines"
+        },
+        "precio": 21.259
+    },
+    
+    {
+        "id": "Pelota-Adidas",
+        "titulo": "Pelota Adidas",
+        "imagen": "./imagenes/Pelotas/Pelota-Adidas.jpg",
+        "categoria": {
+            "nombre": "Pelotas",
+            "id": "pelotas"
+        },
+        "precio": 13.799
+    }, {
+        "id": "Pelota-Diadora",
+        "titulo": "Pelota Diadora",
+        "imagen": "./imagenes/Pelotas/Pelota-Diadora.jpg",
+        "categoria": {
+            "nombre": "Pelotas",
+            "id": "pelotas"
+        },
+        "precio": 11.399
+    }, {
+        "id": "Pelota-Nike",
+        "titulo": "Pelota Nike",
+        "imagen": "./imagenes/Pelotas/Pelota-Nike.jpg",
+        "categoria": {
+            "nombre": "Pelotas",
+            "id": "pelotas"
+        },
+        "precio": 10.999
+    }, {
+        "id": "Pelota-Puma",
+        "titulo": "Pelota Puma",
+        "imagen": "./imagenes/Pelotas/Pelota-Puma.jpg",
+        "categoria": {
+            "nombre": "Pelotas",
+            "id": "pelotas"
+        },
+        "precio": 46.299
+    }
+]

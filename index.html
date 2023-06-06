@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/45880842ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="icon" href="./imagenes/imagenes formato SVG/pelota-icono.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <a href="./index.html">
+                <h1 class="logo">ChangitoDeportivo</h1>
+            </a>
+            <button class="open-menu" id="open-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <header>
+                <a href="./index.html">
+                    <h1 class="logo">ChangitoDeportivo</h1>
+                </a>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i
+                                class="fa-solid fa-bag-shopping"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="Camisetas" class="boton-menu boton-categoria"><i class="fa-solid fa-shirt"></i>
+                            Camisetas</button>
+                    </li>
+                    <li>
+                        <button id="shorts" class="boton-menu boton-categoria"><img
+                                src="./imagenes/imagenes formato SVG/shorts.svg" alt="svg short"> Shorts</button>
+                    </li>
+                    <li>
+                        <button id="Medias" class="boton-menu boton-categoria"><i class="fa-solid fa-socks"></i>
+                            Medias</button>
+                    </li>
+                    <li>
+                        <button id="botines" class="boton-menu boton-categoria"><img
+                                src="./imagenes/imagenes formato SVG/botin1.svg" alt="svg botin"> Botines</button>
+                    </li>
+                    <li>
+                        <button id="pelotas" class="boton-menu boton-categoria"><i class="fa-regular fa-futbol"></i>
+                            Pelotas</button>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sammai-tolentino-mendoza-frontend/" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/SamiTolentino" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="texto-footer">©2023 by Sammai Tolentino. All rights reserved.</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div class="search-container">
+                <input type="text" id="input-buscar" placeholder="Buscar producto">
+            </div>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con Javascript -->
+            </div>
+        </main>
+        <div class="carrito">
+            <a class="boton-menu boton-carrito" href="./carrito.html">
+                <i class="fa-solid fa-cart-shopping" id="icono-carrito"></i>
+                <span id="numerito" class="numerito">0</span>
+            </a>
+        </div>
+    </div>
+    <!-- LIBRERIAS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- MI PROYECTO JS -->
+    <script src="./js/items.js"></script>
+    <script src="./js/producto.js"></script>
+    <script src="./js/hamburguesa.js"></script>
+
+</body>
+
+</html>
